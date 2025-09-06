@@ -73,6 +73,7 @@
         }
         afterCallCoin = afterCallCoin - 20;
         document.getElementById('after-call-coin').innerText = afterCallCoin;
+        document.getElementById("history-1").style.display="block";
     })
 
 
@@ -86,6 +87,7 @@
         }
         afterCallCoin = afterCallCoin - 20;
         document.getElementById('after-call-coin').innerText = afterCallCoin;
+        document.getElementById("history-2").style.display="block";
     })
 
 
@@ -99,6 +101,7 @@
         }
         afterCallCoin = afterCallCoin - 20;
         document.getElementById('after-call-coin').innerText = afterCallCoin;
+        document.getElementById("history-3").style.display="block";
     })
 
 
@@ -112,6 +115,7 @@
         }
         afterCallCoin = afterCallCoin - 20;
         document.getElementById('after-call-coin').innerText = afterCallCoin;
+        document.getElementById("history-4").style.display="block";
     })
 
 
@@ -125,6 +129,7 @@
         }
         afterCallCoin = afterCallCoin - 20;
         document.getElementById('after-call-coin').innerText = afterCallCoin;
+        document.getElementById("history-5").style.display="block";
     })
 
 
@@ -138,6 +143,7 @@
         }
         afterCallCoin = afterCallCoin - 20;
         document.getElementById('after-call-coin').innerText = afterCallCoin;
+        document.getElementById("history-6").style.display="block";
     })
 
 
@@ -151,6 +157,7 @@
         }
         afterCallCoin = afterCallCoin - 20;
         document.getElementById('after-call-coin').innerText = afterCallCoin;
+        document.getElementById("history-7").style.display="block";
     })
 
 
@@ -164,6 +171,7 @@
         }
         afterCallCoin = afterCallCoin - 20;
         document.getElementById('after-call-coin').innerText = afterCallCoin;
+        document.getElementById("history-8").style.display="block";
     })
 
 
@@ -178,6 +186,22 @@
         }
         afterCallCoin = afterCallCoin - 20;
         document.getElementById('after-call-coin').innerText = afterCallCoin;
+        document.getElementById("history-9").style.display="block";
     })
 
-    
+    // clear button erase all call history
+    document.getElementById("clear-btn").addEventListener('click', function(e){
+        e.preventDefault();
+        document.getElementById('history-1').style.display="none";
+        document.getElementById('history-2').style.display="none";
+        document.getElementById('history-3').style.display="none";
+        document.getElementById('history-4').style.display="none";
+        document.getElementById('history-5').style.display="none";
+        document.getElementById('history-6').style.display="none";
+        document.getElementById('history-7').style.display="none";
+        document.getElementById('history-8').style.display="none";
+        document.getElementById('history-9').style.display="none";
+        
+    })
+
+
