@@ -209,6 +209,7 @@
         e.preventDefault();
     let copyBtn = parseInt(document.getElementById('copy-btn').innerText);
     copyBtn = copyBtn + 1;
+    alert('Bangladesh Emergency Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
     })
 
@@ -216,14 +217,16 @@
         e.preventDefault();
     let copyBtn = parseInt(document.getElementById('copy-btn').innerText);
     copyBtn = copyBtn + 1;
+     alert('Police Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
     })
 
 
-        document.getElementById('copy-btn3').addEventListener('click', function(e){
+    document.getElementById('copy-btn3').addEventListener('click', function(e){
         e.preventDefault();
     let copyBtn = parseInt(document.getElementById('copy-btn').innerText);
     copyBtn = copyBtn + 1;
+    alert('Fire Service Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
     })
 
@@ -231,14 +234,16 @@
         e.preventDefault();
     let copyBtn = parseInt(document.getElementById('copy-btn').innerText);
     copyBtn = copyBtn + 1;
+    alert('Ambulance Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
     })
 
 
-        document.getElementById('copy-btn5').addEventListener('click', function(e){
+    document.getElementById('copy-btn5').addEventListener('click', function(e){
         e.preventDefault();
     let copyBtn = parseInt(document.getElementById('copy-btn').innerText);
     copyBtn = copyBtn + 1;
+     alert('Women & Child Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
     })
 
@@ -246,14 +251,16 @@
         e.preventDefault();
     let copyBtn = parseInt(document.getElementById('copy-btn').innerText);
     copyBtn = copyBtn + 1;
+    alert('Anti-Corruption Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
     })
 
 
-        document.getElementById('copy-btn7').addEventListener('click', function(e){
+    document.getElementById('copy-btn7').addEventListener('click', function(e){
         e.preventDefault();
     let copyBtn = parseInt(document.getElementById('copy-btn').innerText);
     copyBtn = copyBtn + 1;
+    alert('Electricity Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
     })
 
@@ -261,6 +268,7 @@
         e.preventDefault();
     let copyBtn = parseInt(document.getElementById('copy-btn').innerText);
     copyBtn = copyBtn + 1;
+    alert('Brac Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
     })
 
@@ -269,6 +277,7 @@
         e.preventDefault();
     let copyBtn = parseInt(document.getElementById('copy-btn').innerText);
     copyBtn = copyBtn + 1;
+    alert('Bangladesh Railway Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
     })
 
