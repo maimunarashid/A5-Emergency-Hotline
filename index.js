@@ -280,5 +280,14 @@
     alert('Bangladesh Railway Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
     })
+// call detail- current time of a call ---console.log(new Date().toLocaleTimeString());
+document.getElementById("call-time1").innerText = new Date().toLocaleTimeString();
+document.getElementById("call-time2").innerText = new Date().toLocaleTimeString();
+document.getElementById("call-time3").innerText = new Date().toLocaleTimeString();
+document.getElementById("call-time4").innerText = new Date().toLocaleTimeString();
+document.getElementById("call-time5").innerText = new Date().toLocaleTimeString();
+document.getElementById("call-time6").innerText = new Date().toLocaleTimeString();
+document.getElementById("call-time7").innerText = new Date().toLocaleTimeString();
+document.getElementById("call-time8").innerText = new Date().toLocaleTimeString();
+document.getElementById("call-time9").innerText = new Date().toLocaleTimeString();
 
-    
