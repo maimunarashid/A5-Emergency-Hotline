@@ -211,6 +211,10 @@
     copyBtn = copyBtn + 1;
     alert('Bangladesh Emergency Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
+    // after click on the copy button the hotline number will be copied and you can paste it anywhere
+    navigator.clipboard.writeText(document.getElementById("hotline1").innerText).then(() => {
+      alert(`Hotline number "${document.getElementById("hotline1").innerText}" copied to clipboard!`);
+    });
     })
 
     document.getElementById('copy-btn2').addEventListener('click', function(e){
@@ -219,6 +223,10 @@
     copyBtn = copyBtn + 1;
      alert('Police Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
+        // after click on the copy button the hotline number will be copied and you can paste it anywhere
+    navigator.clipboard.writeText(document.getElementById("hotline2").innerText).then(() => {
+      alert(`Hotline number "${document.getElementById("hotline2").innerText}" copied to clipboard!`);
+    });
     })
 
 
@@ -228,6 +236,10 @@
     copyBtn = copyBtn + 1;
     alert('Fire Service Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
+        // after click on the copy button the hotline number will be copied and you can paste it anywhere
+    navigator.clipboard.writeText(document.getElementById("hotline3").innerText).then(() => {
+      alert(`Hotline number "${document.getElementById("hotline3").innerText}" copied to clipboard!`);
+    });
     })
 
     document.getElementById('copy-btn4').addEventListener('click', function(e){
@@ -236,6 +248,10 @@
     copyBtn = copyBtn + 1;
     alert('Ambulance Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
+        // after click on the copy button the hotline number will be copied and you can paste it anywhere
+    navigator.clipboard.writeText(document.getElementById("hotline4").innerText).then(() => {
+      alert(`Hotline number "${document.getElementById("hotline4").innerText}" copied to clipboard!`);
+    });
     })
 
 
@@ -245,6 +261,10 @@
     copyBtn = copyBtn + 1;
      alert('Women & Child Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
+        // after click on the copy button the hotline number will be copied and you can paste it anywhere
+    navigator.clipboard.writeText(document.getElementById("hotline5").innerText).then(() => {
+      alert(`Hotline number "${document.getElementById("hotline5").innerText}" copied to clipboard!`);
+    });
     })
 
     document.getElementById('copy-btn6').addEventListener('click', function(e){
@@ -253,6 +273,10 @@
     copyBtn = copyBtn + 1;
     alert('Anti-Corruption Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
+        // after click on the copy button the hotline number will be copied and you can paste it anywhere
+    navigator.clipboard.writeText(document.getElementById("hotline6").innerText).then(() => {
+      alert(`Hotline number "${document.getElementById("hotline6").innerText}" copied to clipboard!`);
+    });
     })
 
 
@@ -262,6 +286,10 @@
     copyBtn = copyBtn + 1;
     alert('Electricity Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
+        // after click on the copy button the hotline number will be copied and you can paste it anywhere
+    navigator.clipboard.writeText(document.getElementById("hotline7").innerText).then(() => {
+      alert(`Hotline number "${document.getElementById("hotline7").innerText}" copied to clipboard!`);
+    });
     })
 
     document.getElementById('copy-btn8').addEventListener('click', function(e){
@@ -270,6 +298,10 @@
     copyBtn = copyBtn + 1;
     alert('Brac Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
+        // after click on the copy button the hotline number will be copied and you can paste it anywhere
+    navigator.clipboard.writeText(document.getElementById("hotline8").innerText).then(() => {
+      alert(`Hotline number "${document.getElementById("hotline8").innerText}" copied to clipboard!`);
+    });
     })
 
 
@@ -279,7 +311,12 @@
     copyBtn = copyBtn + 1;
     alert('Bangladesh Railway Helpline information Copied!')
     document.getElementById('copy-btn').innerText = copyBtn + ' Copy';
+        // after click on the copy button the hotline number will be copied and you can paste it anywhere
+    navigator.clipboard.writeText(document.getElementById("hotline9").innerText).then(() => {
+      alert(`Hotline number "${document.getElementById("hotline9").innerText}" copied to clipboard!`);
+    });
     })
+
 // call detail- current time of a call ---console.log(new Date().toLocaleTimeString());
 document.getElementById("call-time1").innerText = new Date().toLocaleTimeString();
 document.getElementById("call-time2").innerText = new Date().toLocaleTimeString();
